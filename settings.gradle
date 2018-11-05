@@ -2,13 +2,29 @@
 include "code/bevzuk-anton"
 project(":code/bevzuk-anton").name = "bevzuk-anton-Model"
 
+//Oleneva Maria
+include "code/oleneva-intersect-line-and-plane"
+project(":code/oleneva-intersect-line-and-plane").name = "code/oleneva-intersect-line-and-plane"
+
 // Pozdiaev Valerii
 include "code/pozdiaev-valerii-currency-converter"
 project(":code/pozdiaev-valerii-currency-converter").name = "pozdiaev-valerii-currency-converter"
 
+// nickshevr
+include("code/nickshevr-numerical-integration")
+project(":code/nickshevr-numerical-integration").name = "nickshevr-numerical-integration"
+
 // Korniakov Kirill, lab1
 include "code/korniakov-kirill-lab1"
 project(":code/korniakov-kirill-lab1").name = "korniakov-kirill-lab1-Model"
+
+// Shadrunov Artem
+include "code/shadrunov-artem-bit-array"
+project(":code/shadrunov-artem-bit-array").name = "shadrunov-artem-bit-array"
+
+// Anikina Olga
+include "code/dikstry"
+project(":code/dikstry").name = "dikstry-Model"
 
 // Ivanova Olga, lab1
 include "code/prime-number"
@@ -21,6 +37,10 @@ project(":code/marchenko-andrey-complex-number").name = "marchenko-andrey-comple
 // Andreev Vladilsav
 include "code/andreev-vlad-triangle"
 project(":code/andreev-vlad-triangle").name = "andreev-vlad-triangle-Model"
+
+// Moiseev Nikita, lab 1
+include "code/abstract-set"
+project(":code/abstract-set").name = "abstract-set-Model"
 
 // Zhiltsov Max, lab 1
 include "code/vector-distance"
@@ -62,6 +82,10 @@ project(":code/korniakov-kirill-lab3/View").name = "korniakov-kirill-lab3-View"
 include "code/korniakov-kirill-lab3/Infrastructure"
 project(":code/korniakov-kirill-lab3/Infrastructure").name = "korniakov-kirill-lab3-Infrastructure"
 
+// Gladkov Dmitry, Huffman code
+include "code/gladkov-dmitry-huffman"
+project(":code/gladkov-dmitry-huffman").name = "gladkov-dmitry-huffman"
+
 // Polyakov Igor, sort
 include "code/polyakov-igor-sort"
 project(":code/polyakov-igor-sort").name = "polyakov-igor-sort-Model"
@@ -69,6 +93,10 @@ project(":code/polyakov-igor-sort").name = "polyakov-igor-sort-Model"
 // Rumyantsev Alexander, Vector3D
 include "code/rumyantsev-alexander-vector3d"
 project(":code/rumyantsev-alexander-vector3d").name = "rumyantsev-alexander-vector3d"
+
+// Magazinnik Ivan, string-calculator
+include "code/string-calculator"
+project(":code/string-calculator").name = "string-calculator"
 
 // Stack
 include "code/stack"
@@ -78,6 +106,10 @@ project(":code/stack").name = "stack"
 include "code/chekodaev-oleg-roman-number-converter"
 project(":code/chekodaev-oleg-roman-number-converter").name = "chekodaev-oleg-roman-number-converter"
 
+// Metelev Evgenii
+include "code/metelev-evgenii-mortgage-calculator"
+project(":code/metelev-evgenii-mortgage-calculator").name = "metelev-evgenii-Model"
+
 // Kochuev Andrey, Length Converter
 include "code/kochuev-andrey-length-converter"
 project(":code/kochuev-andrey-length-converter").name = "kochuev-andrey-length-converter"
@@ -85,3 +117,55 @@ project(":code/kochuev-andrey-length-converter").name = "kochuev-andrey-length-c
 // Beresneva Julia, LCD Digits
 include "code/beresneva-julia-lcd-digits"
 project(":code/beresneva-julia-lcd-digits").name = "beresneva-julia-lcd-digits-Model"
+
+// Osechkin Sergey, DepositCalculator
+include "code/osechkin-deposit-calculator"
+project(":code/osechkin-deposit-calculator").name = "osechkin-deposit-calculator"
+
+// Three dimensional shapes area calculation
+include "code/three-dimensional-shapes-area"
+project(":code/three-dimensional-shapes-area").name = "three-dimensional-shapes-area"
+
+// Gladkova Tatiana, Binary Search
+include "code/gladkova-tatiana-binary-search"
+project(":code/gladkova-tatiana-binary-search").name = "gladkova-tatiana-binary-search"
+
+// Kryukova Polina, caesar-cipher
+include "code/caesar-cipher"
+project(":code/caesar-cipher").name = "caesar-cipher"
+
+// Podolov Kirill, Queue
+include "code/queue"
+project(":code/queue").name = "queue-Model"
+
+// Flegontov Alexander, math-statistics
+include "code/math-statistics"
+project(":code/math-statistics").name = "math-statistics"
+
+// Fytov Aleksandr, Fraction calculator
+include "code/fytov-aleksandr-frac-calc"
+project(":code/fytov-aleksandr-frac-calc").name = "fytov-aleksandr-frac-calc"
+
+// 3D shapes volume
+include "code/shape-volume-calculator"
+project(":code/shape-volume-calculator").name = "shape-volume-calculator"
+
+// Rumiantseva Maria, Quadratic Equation Solver
+include "code/rumiantseva-maria-quadratic-equation-solver"
+project(":code/rumiantseva-maria-quadratic-equation-solver").name = "rumiantseva-maria-quadratic-equation-solver"
+
+// Sheptunov Vladislav, BinarySearchTree
+include "code/binary-search-tree"
+project(":code/binary-search-tree").name = "binary-search-tree"
+
+//Pipikin Oleg, Matrix
+include "code/pipikin-oleg-matrix"
+project(":code/pipikin-oleg-matrix").name = "pipikin-oleg-matrix"
+
+// Nakhimovich Dmitry, Segments2D
+include "code/nakhimovich-dmitry-segments2d"
+project(":code/nakhimovich-dmitry-segments2d").name = "nakhimovich-dmitry-segments2d"
+
+// Akhmedzhanov Dmitry, Conway Game of Life
+include "code/akhmedzhanov-dmitry-conway-game"
+project(":code/akhmedzhanov-dmitry-conway-game").name = "akhmedzhanov-dmitry-conway-game-Model"
